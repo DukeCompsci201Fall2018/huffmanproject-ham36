@@ -88,7 +88,7 @@ class FileSelector {
             ourFiles = null;
             SwingUtilities.invokeAndWait(new Runnable() {
                 @Override
-                public void run () {
+                public void run() {
                     int result = 0;
                     if (openForRead) {
                         result = ourChooser.showOpenDialog(null);
